@@ -1,0 +1,16 @@
+{
+	"name": "shiplace",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"dev": "vite",
+		"build-css": "NODE_ENV=production npx tailwindcss -i ./css/style.css -o ./dist/tailwind.css"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.0",
+		"postcss": "^8.3.11",
+		"tailwindcss": "^2.2.19",
+		"vite": "^2.6.14"
+	}
+}
