@@ -6,10 +6,14 @@ module.exports = {
 		container: {
 			center: true,
 		},
-		extend: {},
+		extend: {
+			boxShadow: {
+				large: '20px 10px 100px rgba(0, 0, 0, 0.1)',
+			},
+		},
 	},
 	variants: {
 		extend: {},
 	},
-	plugins: [],
+	plugins: [require('@tailwindcss/forms')],
 };
